@@ -327,7 +327,7 @@ export class Client extends AsyncEventEmitter<Events> {
 
   /**
    * Connect to Revolt.
-   * To be called after `client.login`'s `Promise` resolves.
+   * To be called after `client.login`'s `Promise` resolves
    */
   connect(): void {
     clearTimeout(this.#reconnectTimeout);
